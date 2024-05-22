@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viraj Ariyawangsha - Electronics Engineering Undergraduate</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="banner" >
+        <header class=".nav-container">
+            <div class="navigation">
+                <ul>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="#career">Career</a>
+                    <a href="volunteering.html">Volunteering</a>
+                    <a href="#contact">Contact</a>
+                </ul>
+            </div>
+        </header>
+        <div class="profile-section">
+            <div class="profile">
+                <h1>Viraj Ariyawangsha</h1>
+            </div>
+            <div class="profile-picture"><img src="images/profile.jpg" class="profile-picture"></img></div>
+            <div class="profile">
+                <p>Electronics Engineering Undergraduate</p>
+            </div>
+        </div>
+    </div>
+    <div class="profile-info">
+        <h1>Welcome to My Personal Webpage</h1>
+        <p>I am an ambitious final year electronics engineering undergraduate seeking internship opportunities...</p>
+        <a href="#" class="btn">Download My CV</a>
+    </div>
+    <section id="introduction" class="scroll-section">
+        <h2>About Me</h2>
+        <p>
+            As an ambitious final year engineering undergraduate, I am seeking an 
+            internship opportunity in the fields of electronics, embedded systems, and 
+            AI where I can get real and hands-on engineering experiences. With a 
+            passion for learning and a proven track record of being an innovative 
+            problem solver, I am confident in my ability to quickly adapt to new 
+            challenges and contribute as a multi-tasking team-player to drive a project 
+            to its success. I am eager to work with an organization that promotes 
+            innovation and enriching human interactions.
+        </p>
+    </section>
+    <section id="gallery" class="scroll-section">
+        <img src="images/photo1.jpg" alt="Photo 2 description">
+        <img src="images/photo3.jpg" alt="Photo 3 description">
+        <img src="images/photo4.png" alt="Photo 4 description">
+    </section>
+    <section id="career" class="scroll-section">
+        <h2>Career</h2>
+        <div id="career-details">
+            <h3>Professional Experience</h3>
+            <p>Details about professional experience go here...</p>
+            <h3>Certifications</h3>
+            <p>Details about certifications go here...</p>
+        </div>
+        <div class="internship">
+            <h3>Internship Opportunity</h3>
+            <p>Here's a description of the internship opportunity...</p>
+            <img src="images/internship1.jpg" alt="Internship Photo 1">
+            <img src="images/internship2.jpg" alt="Internship Photo 2">
+        </div>
+    </section>
+    <section id="contact" class="scroll-section">
+        <h2>Contact Me</h2>
+        <form action="mailto:aryans.viraj@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/viraj-ariyawangsha/" target="_blank">
+            <img src="images/linkedin-icon.png" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://instagram.com/master_aryans" target="_blank">
+            <img src="images/instagram-icon.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.facebook.com/viraj.ariyawangsha" target="_blank">
+            <img src="images/facebook-icon.png" alt="Facebook" class="social-icon">
+        </a>
+    </footer>
+    <script>
+        // Scroll animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.scroll-section');
+            const options = {
+                threshold: 0.1
+            };
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, options);
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>

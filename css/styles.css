@@ -7,6 +7,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 .profile {
     text-align: center;
 }
@@ -27,12 +28,10 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-
 .profile h1 {
     margin: 10px;
     font-size: 3em;
     color: #fff;
-    /* color: rgb(6, 58, 117); */
 }
 
 .profile p {
@@ -41,24 +40,35 @@ body {
     color: #ffffff;
 }
 
-/*Floating navigation*/
+/* Floating navigation */
 .navigation {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
     background-color: #ffffff; /* Background color of the navigation bar */
-    padding: 20px 50px; /* Padding around the navigation links */
+    padding: 10px 50px; /* Padding around the navigation links */
     border-radius: 40px; /* Rounded corners */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a floating effect */
-    transition: box-shadow 0.3s;
-    transition: width 0.3s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
+    transform-origin: center;
+    transition: width 0.3s ease, transform 0.3s ease;
+}
+
+.navigation.fixed {
+    position: fixed;
+    opacity: 0.85;
+    top: 15px;
+    left: calc(50% - 300px);
+    transform: translateX(calc(-50% + 300px));
+    justify-content: center;
+    transition: all 0.3s ease;
 }
 
 .navigation:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
     width: 550px;
     height: auto;
+    opacity: 1;
 }
 
 .navigation ul {
@@ -91,7 +101,7 @@ body {
     margin: 0;
 }
 
-/*Floating navigation end*/
+/* End Floating navigation */
 
 .navigation a {
     color: #000000;
@@ -113,9 +123,8 @@ body {
 
 header {
     position: absolute;
-    width: 100%;
+    width: 90%;
     bottom: -40px;
-    /* background-color: rgba(8, 108, 162, 0.9); */
     color: #fff;
     z-index: 1;
     display: flex;
@@ -147,7 +156,8 @@ header {
     text-align: center;
     margin-top: 70px;
 }
-.profile-info h1{
+
+.profile-info h1 {
     font-family: "Oooh Baby", cursive;
     font-style: normal;
     font-weight: 500;
@@ -220,7 +230,9 @@ section.visible {
     flex-direction: column;
 }
 
-#contact form label, #contact form input, #contact form textarea {
+#contact form label,
+#contact form input,
+#contact form textarea {
     margin: 5px 0;
 }
 

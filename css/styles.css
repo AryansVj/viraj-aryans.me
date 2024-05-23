@@ -51,6 +51,14 @@ body {
     padding: 20px 50px; /* Padding around the navigation links */
     border-radius: 40px; /* Rounded corners */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for a floating effect */
+    transition: box-shadow 0.3s;
+    transition: width 0.3s;
+}
+
+.navigation:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
+    width: 550px;
+    height: auto;
 }
 
 .navigation ul {
@@ -89,12 +97,11 @@ body {
     color: #000000;
     text-decoration: none;
     font-weight: 600;
-    margin-left: 20px;
-    transition: color 0.3s;
+    transition: color 0.2s;
 }
 
 .navigation a:hover {
-    color: #ffd700;
+    color: rgb(6, 155, 143);
 }
 
 .nav-container {
@@ -159,6 +166,11 @@ header {
     font-size: 16px; /* Font size */
     cursor: pointer; /* Cursor on hover */
     border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3b8f3e; /* Green background */
 }
 
 section {
@@ -226,8 +238,8 @@ section.visible {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #9e9e9e;
+    color: #323232;
     padding: 10px 0;
     text-align: center;
     position: relative;

@@ -1,6 +1,8 @@
 function observeSections(entries, observer) {
+    // IntersectionObserver instance Callback function when a section is observed as scrolled
     entries.forEach(entry => {
         if (entry.isIntersecting) {
+            // Add the class visible making the section visible when intersected
             entry.target.classList.add('visible');
             observer.unobserve(entry.target);
         }
@@ -8,13 +10,15 @@ function observeSections(entries, observer) {
 }
 
 function loadSections() {
+    // Function to animate Loading sections when scrolling
     const options = {
         threshold: 0.1
     };
 
     const observer = new IntersectionObserver(observeSections, options);
-    const sections = document.querySelectorAll('.scroll-section');
+    const sections = document.querySelectorAll('.scroll-section');  // Select all the sections need to be loaded
 
+    // Apply observer for each section
     sections.forEach(section => {
         observer.observe(section);
     });
@@ -61,8 +65,9 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     })
     
-    loadSections();
+    loadSections(); // To load any sections that are in the window when the page is loading
 
+    // Navigation bar fixing when scrolling below banner
     window.addEventListener('scroll', function() {
         if (window.scrollY >= bannerHeight && !isNavFixed) {
             nav.classList.add('fixed');

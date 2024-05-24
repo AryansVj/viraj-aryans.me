@@ -153,14 +153,14 @@ header {
     margin: 0;
 }
 
-.profile-info {
+.header-info {
     text-align: center;
     margin-top: 70px;
     max-width: 900px;
     margin: 70px auto 0 auto;
 }
 
-.profile-info h1 {
+.header-info h1.profile {
     font-family: "Daniel", cursive;
     font-style: normal;
     font-weight: 200;

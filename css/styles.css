@@ -41,6 +41,10 @@ body p {
     color: #fff;
 }
 
+.profile a {
+    text-decoration: none;
+}
+
 /* Floating navigation */
 .navigation {
     display: flex;

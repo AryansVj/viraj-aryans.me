@@ -38,6 +38,19 @@ document.addEventListener('DOMContentLoaded', function() {
     const contentDiv = document.getElementById('content')
     console.log('The retreved consts are ', links, contentDiv);
     
+    const home_url = 'home.html';
+    fetch(home_url)
+    .then(response => {
+        if (!response.ok) {
+            throw Error('Network response was not ok ' + response.statusText);
+        }
+        return response.text();
+    })
+    .then(data => {
+        contentDiv.innerHTML = data;
+        loadSections();
+    })
+    
     links.forEach(link => {
         link.addEventListener('click', function(event) {
             event.preventDefault();

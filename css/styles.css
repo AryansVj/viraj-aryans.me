@@ -247,7 +247,7 @@ section.visible {
 #gallery img:hover {
     transform: scale(1.05);
 }
-
+/*
 #contact form {
     display: flex;
     flex-direction: column;
@@ -270,6 +270,72 @@ section.visible {
 
 #contact form input[type="submit"]:hover {
     background-color: #064f7b;
+}
+*/
+
+.site-section {
+    all: unset;
+    padding: 20px;
+}
+
+.contact-div {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.form-div h2 {
+    text-align: center;
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.form-div {
+    width: 50%;
+    padding: 20px;
+}
+
+.form-div form {
+    margin: 0 50px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #f4f4f4;
+    background-color: #303030;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-div form * {
+    display: block;
+    width: 100%;
+}
+
+.form-div form input, textarea {
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(107, 107, 107);
+    margin-bottom: 10px;
+}
+
+.form-div form input.btn {
+    all: unset;
+    box-sizing: content-box;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #107882;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+    transition: all 0.2s ease;
+}
+
+.form-div form input.btn:hover {
+    background-color: #ffffff;
+    color: #1d757b;
+    cursor: pointer;
 }
 
 footer {

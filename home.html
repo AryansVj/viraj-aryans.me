@@ -38,15 +38,26 @@
         <img src="images/internship2.jpg" alt="Internship Photo 2">
     </div>
 </section>
-<section id="contact" class="scroll-section">
-    <h2>Contact Me</h2>
-    <form action="mailto:aryans.viraj@gmail.com" method="post" enctype="text/plain">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <input type="submit" value="Send">
-    </form>
+<section id="contact" class="site-section">
+    <div class="contact-div">
+        <div>
+            <h2>Contact me</h2>
+            <ul>
+                <li><a href="">Email: aryans.viraj@gmail.com</a></li>
+                <li><a href="">Email: aryans.viraj@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="form-div">
+            <form action="send_mail.php" method="post">
+                <h2>Write to me via email</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </div>
+    </div>
 </section>

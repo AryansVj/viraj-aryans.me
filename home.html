@@ -48,12 +48,14 @@
             </ul>
         </div>
         <div class="form-div">
-            <form action="send_mail.php" method="post">
-                <h2>Write to me via email</h2>
+            <form action="php/send_mail2.php" method="post">
+                <h2>Write to me</h2>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
                 <label for="message">Message:</label>
                 <textarea id="message" name="message"></textarea>
                 <input type="submit" value="Send" class="btn">

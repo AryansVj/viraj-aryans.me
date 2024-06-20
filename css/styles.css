@@ -6,14 +6,18 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
 }
+
+body h1, h2, h3, h4, span {
+    font-family:'Poppins', sans-serif;
+}
+
 body p {
     color: #1b1b1b;
-    font-family: 'Open Sans', sans-serif;
 }
 
 section div.text-content {

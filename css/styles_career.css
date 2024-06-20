@@ -96,31 +96,27 @@
 
 h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
-.intern h3 {
-    display: inline;
-    line-height: 1em;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.intern span {
-    padding: 2px 5px;
+span.sub-label {
+    padding: 0 5px;
     color: #404040;
     font-weight: 500;
     border-radius: 5px;
     background-color: rgb(228, 228, 228);
 }
 
+.intern h3 {
+    display: inline;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 .intern div div {
     display: inline;
     line-height: 1em;
-}
-
-div.intern {
-    margin-top: 20px;
 }
 
 .intern div .label {
@@ -134,4 +130,65 @@ div.intern {
 .intern img {
     height: 100px;
     margin: 10px;
+}
+
+/* Education */
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education div {
+    width: 50%;
+}
+
+.education .text-content {
+    width: 45%;
+}
+
+.degree .text-content h4 {
+    font-size: 2em;
+    color: #006181;
+}
+
+.degree ul {
+    list-style: circle;
+    text-indent: none;
+}
+
+.text-content h4 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    line-height: 1.2em;
+}
+
+.certifications {
+    display: flex;
+}
+
+.certifications .text-content {
+    width: 30%;
+}
+
+.certifications h4 {
+    font-size: 2em;
+}
+
+div.vl {
+    border-right: 3px solid #3b3b3b;
+    width: 0%;
+    margin: 20px 0 20px 5px;
+}
+
+.certifications ul {
+    list-style-type:circle;
+}
+
+.certifications ul li {
+    margin-bottom: 5px;
+}
+
+.certifications ul li span {
+    font-size: 1.1em;
+    font-weight: 600;
 }

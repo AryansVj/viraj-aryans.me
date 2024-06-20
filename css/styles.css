@@ -16,6 +16,14 @@ body p {
     font-family: 'Open Sans', sans-serif;
 }
 
+section div.text-content {
+    padding: 15px;
+}
+
+.text-content p {
+    text-align: justify;
+}
+
 .profile {
     text-align: center;
 }

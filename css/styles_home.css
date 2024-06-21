@@ -2,11 +2,28 @@
     font-family: 'Poppins', sans-serif;
 }
 
+div.contact-back {
+    background-image: linear-gradient(5deg, #f4f4f442, #f4f4f478, #f4f4f4), url(../images/Backgrounds/Contact.png);
+    background-size: cover;
+    background-position: bottom;
+}
 .contact-div {
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1200px;
+    background: transparent;
+}
+
+div.contacts {
+    margin-left: 100px;
+}
+
+div.contacts h2 {
+    text-align: left;
+    margin: 0 15px;
+    font-size: 4em;
+    color: #575757;
 }
 
 .contact-div .socials a {
@@ -17,7 +34,7 @@
 }
 
 .contact-div .socials i {
-    font-size: 1.7em;
+    font-size: 1.5em;
     line-height: 2em;
     align-items: center;
     transition: all 0.1s ease;
@@ -51,7 +68,7 @@
 }
 
 .form-div {
-    width: 50%;
+    width: 450px;
     padding: 20px;
 }
 

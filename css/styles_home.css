@@ -1,6 +1,30 @@
 .header-info p {
     font-family: 'Poppins', sans-serif;
 }
+.scroll-section h2 {
+    margin: 5px auto;
+}
+#updates h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.news-details {
+    display: flex;
+}
+
+.news-details img {
+    width: 400px;
+    height: fit-content;
+    margin: 10px 20px 10px 0;
+}
+
+.news-details p {
+    margin-top: 0;
+}
 
 div.contact-back {
     background-image: linear-gradient(5deg, #f4f4f442, #f4f4f478, #f4f4f4), url(../images/Backgrounds/Contact.png);

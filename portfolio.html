@@ -3,41 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Viraj Ariyawangsha</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Viraj Ariyawangsha - Electronics Engineering Undergraduate</title>
+    <link rel="icon" href="images/VA-round.png">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+    <link rel="stylesheet" href="css/styles_portfolio.css">
+    <link rel="stylesheet" href="css/styles_home.css">
+    <script src="https://kit.fontawesome.com/19357d3bf8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="volunteering.html">Volunteering</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <h3>Wired-to-wireless converter dock</h3>
-                <p>A portable conversion dock to act as a bridge between most common types of wired peripherals and host devices with wireless interfaces such as Bluetooth and Wi-Fi, using an STM32 as the MCU.</p>
-            </li>
-            <li>
-                <h3>Computer vision based human action recognition and dyadic interaction detection</h3>
-                <p>Final year research project in computer vision and deep learning domain to detect and identify two-person interaction using a camera feed in real time.</p>
-            </li>
-            <li>
-                <h3>Design and development of a power distribution module – Vega Innovations</h3>
-                <p>An 8-channelled power distribution module was designed and developed from the electronic circuit level to a working prototype of a PCB.</p>
-            </li>
-            <li>
-                <h3>Gesture controlled wireless virtual mouse</h3>
-                <p>A product development project to control the cursor on a screen wirelessly by hand movements as a virtual mouse using ESP32 chip, gyroscope, and accelerometer sensors along with multiple touch sensors.</p>
-            </li>
-        </ul>
-    </section>
+    <div class="banner-ptfl" >
+        <header class="nav-container-ptfl">
+            <div class="profile-ptfl">
+                <div class="logo-ptfl"><img src="images/VA-round.png" class="logo-ptfl"></img></div>
+                <div class="title">
+                    <h1>Viraj Aryans</h1>
+                    <p>Electronics | Engineering | Designing | AI & ML</p>
+                </div>
+            </div>
+            <div class="navigation-ptfl">
+                <a href="index.html" class="nav-link home-icon-container"><img src="images/profile.jpg" class="home-icon"></img> Home</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="https://www.linkedin.com/in/viraj-ariyawangsha" target="_blank">
+                    <i class="fa fa-linkedin fa-lg" aria-hidden="true" class="social-fa"></i> LinkedIn
+                </a>
+                <a href="https://github.com/AryansVj" target="_blank">
+                    <i class="fa-brands fa-github" class="social-fa"></i> AryansVj
+                </a>
+                <a href="https://www.hackerrank.com/profile/VirajAryans" target="_blank">
+                    <i class="fa-brands fa-hackerrank" class="social-fa"></i> VirajAryans
+                </a>
+            </div>
+        </header>
+    </div>
+
+    <div id="portfolio-container" class="portfolio-container">
+        <div class="project-card project-card-template">
+            <img src="images/portfolio/photo1.jpeg" class="project-image">
+            <div class="project-content">
+                <div>
+                    <h3 class="project-title">Wired-to-wireless converter dock</h3>
+                    <div class="label">Ongoing</div>
+                </div>
+                <p class="project-keywords">#Embedded Systems, #IOT, #Signal Processing</p>
+                <p class="project-description">A portable conversion dock to act as a bridge between most common types 
+                    of wired peripherals and host devices with wireless interfaces such as Bluetooth and Wi-Fi, using 
+                    an STM32 as the MCU. A solo electronic design and prototype project out of passion.</p>
+                <p class="project-tech-stack"><strong>Tech Stack:</strong> STM32, USB, Bluetooth, Python, C</p>
+                <p class="project-date"><strong>Ongoing:</strong> since January 2024</p>
+                <a href="" class="project-link"><i class="fa-brands fa-github" class="social-fa"></i> Read more</a>
+            </div>
+        </div>
+        <!-- Repeat the above block for each project -->
+    </div>
+    <footer>
+        <p>© Viraj Ariyawangsha 2024</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/viraj-ariyawangsha/" target="_blank">
+                <i class="fa fa-facebook fa-lg" aria-hidden="true" class="social-fa"></i>
+            </a>
+            <a href="https://instagram.com/master_aryans" target="_blank">
+                <i class="fa fa-instagram fa-lg" aria-hidden="true" class="social-fa"></i>
+            </a>
+            <a href="https://www.facebook.com/viraj.ariyawangsha" target="_blank">
+                <i class="fa fa-linkedin fa-lg" aria-hidden="true" class="social-fa"></i>
+            </a>
+            <a href="https://x.com/VirajAryans" target="_blank">
+                <i class="fa fa-twitter fa-lg" aria-hidden="true" class="social-fa"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="js/portfolio_scripts.js"></script>
 </body>
-</html>

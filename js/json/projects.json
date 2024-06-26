@@ -1,0 +1,41 @@
+[
+    {
+      "title": "Wired-to-wireless converter dock",
+      "img": "images/portfolio/photo1.jpeg",
+      "status": "Ongoing",
+      "keywords": "#Embedded Systems, #IOT, #Signal Processing",
+      "description": "A portable conversion dock to act as a bridge between most common types of wired peripherals and host devices with wireless interfaces such as Bluetooth and Wi-Fi, using an STM32 as the MCU. A solo electronic design and prototype project out of passion.",
+      "techStack": "STM32, USB, Bluetooth, Python, C",
+      "date": "",
+      "link": "aryansvj.github.io"
+    },
+    {
+      "title": "Design and development of a power distribution module - Vega Innovations",
+      "img": "images/portfolio/vega_pcb.jpg",
+      "status": "Completed",
+      "keywords": "#Electronics, #Power, #Prototype #PCB",
+      "description": "An 8-channelled power distribution module was designed and developed from the electronic circuit level to a working prototype of a PCB. The PDM was using MOSFETs for switching which handled up to a maximum of 100A passing through the board when operating with all channels ON.",
+      "techStack": "PCB Design, EAGLE, Electronics, MOSFETs",
+      "date": "October 2023",
+      "link": "aryansvj.github.io"
+    },
+    {
+      "title": "Project Three",
+      "img": "images/portfolio/photo1.jpeg",
+      "status": "Ongoing",
+      "keywords": "#Machine Learning, #Python",
+      "description": "A machine learning project involving data analysis and model training.",
+      "techStack": "Python, TensorFlow, Pandas",
+      "link": ""
+    },
+    {
+      "title": "Project Three",
+      "img": "images/portfolio/photo1.jpeg",
+      "status": "Completed",
+      "keywords": "#Machine Learning, #Python",
+      "description": "A machine learning project involving data analysis and model training.",
+      "techStack": "Python, TensorFlow, Pandas",
+      "date": "March 2024"
+    }
+]
+  

@@ -48,20 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 projectCard.innerHTML = projectHTML;
 
-                // projectCard.innerHTML = `
-                //     <img src="${project.img}" class="project-image"></img>
-                //     <div class="project-content">
-                //         <div>
-                //             <h3 class="project-title">${project.title}</h3>
-                //             <div class="label">${project.status}</div>
-                //         </div>
-                //         <p class="project-keywords">${project.keywords}</p>
-                //         <p class="project-description">${project.description}</p>
-                //         <p class="project-tech-stack"><strong>Technology Stack:</strong> ${project.techStack}</p>
-                //         <p class="project-date"><strong>${project.status}:</strong> ${project.date}</p>
-                //     </div>
-                // `;
-
                 projectsContainer.appendChild(projectCard);
             });
         })

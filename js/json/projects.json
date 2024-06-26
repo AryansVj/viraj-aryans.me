@@ -1,9 +1,9 @@
 [
     {
       "title": "Wired-to-wireless converter dock",
-      "img": "images/portfolio/photo1.jpeg",
+      "img": "images/portfolio/dock-ongoing.jpeg",
       "status": "Ongoing",
-      "keywords": "#Embedded Systems, #IOT, #Signal Processing",
+      "keywords": "#EmbeddedSystems #IOT #Signal Processing",
       "description": "A portable conversion dock to act as a bridge between most common types of wired peripherals and host devices with wireless interfaces such as Bluetooth and Wi-Fi, using an STM32 as the MCU. A solo electronic design and prototype project out of passion.",
       "techStack": "STM32, USB, Bluetooth, Python, C",
       "date": "",
@@ -13,29 +13,60 @@
       "title": "Design and development of a power distribution module - Vega Innovations",
       "img": "images/portfolio/vega_pcb.jpg",
       "status": "Completed",
-      "keywords": "#Electronics, #Power, #Prototype #PCB",
+      "keywords": "#Electronics #Power #Prototype #PCB",
       "description": "An 8-channelled power distribution module was designed and developed from the electronic circuit level to a working prototype of a PCB. The PDM was using MOSFETs for switching which handled up to a maximum of 100A passing through the board when operating with all channels ON.",
       "techStack": "PCB Design, EAGLE, Electronics, MOSFETs",
       "date": "October 2023",
       "link": "aryansvj.github.io"
     },
     {
-      "title": "Project Three",
-      "img": "images/portfolio/photo1.jpeg",
+      "title": "Computer vision based human action recognition and dyadic interaction detection",
+      "img": "images/portfolio/fyp_poster.png",
       "status": "Ongoing",
-      "keywords": "#Machine Learning, #Python",
-      "description": "A machine learning project involving data analysis and model training.",
-      "techStack": "Python, TensorFlow, Pandas",
+      "keywords": "#DeepLearning #Pytorch #ComputetVision",
+      "description": "Final year research project in computer vision and deep learning domain to detect and identify two-person interaction using a camera feed in real time.",
+      "techStack": "Python, Pytorch, MMLabs",
       "link": ""
     },
     {
-      "title": "Project Three",
-      "img": "images/portfolio/photo1.jpeg",
+      "title": "Gesture controlled wireless virtual mouse",
+      "img": "images/portfolio/gcvm.jpg",
       "status": "Completed",
-      "keywords": "#Machine Learning, #Python",
-      "description": "A machine learning project involving data analysis and model training.",
-      "techStack": "Python, TensorFlow, Pandas",
-      "date": "March 2024"
+      "keywords": "#Electronics #EmbeddedSystems #SensorFusion #IOT",
+      "description": "A product development project to control the cursor on a screen wirelessly by hand movements as a virtual mouse. Use ESP32 chip, gyroscope, and accelerometer sensors along with multiple touch sensors. Communication through BLE in a client-server notify architecture.",
+      "techStack": "Python, C, BLE, ESP32, IMU6050",
+      "date": "August 2023",
+      "link" : "https://github.com/AryansVj/gcvm"
+    },
+    {
+      "title": "NQoSM, Python library development for Linux kernel tracing and resource monitoring - Zone24x7",
+      "img": "images/portfolio/zone-nqosm.jpg",
+      "status": "Completed",
+      "keywords": "#Electronics #EmbeddedSystems #Networking #QoS #KernelTracing",
+      "description": "Network Quality of Service Monitoring (NQoSM) is a project done for Zone24x7 (Pvt) Ltd., to build a python library composed of all the tools required to build applications for Resource Monitoring. The library can be used to write python applications with the ability to manage and monitor resources such as Network, CPU, Disk and Memory in remote Linux running servers. A powerful tool called eBPF was used for Linux kernel tracing and a setup of 3 networked Raspberry Pi boards was used as the testing.",
+      "techStack": "Python, eBPF, RaspberryPi, cgroups, Linux",
+      "date": "October 2022",
+      "link" : ""
+    },
+    {
+      "title": "Magnetic cargo mover for classification",
+      "img": "images/portfolio/3D model of mcm.jpg",
+      "status": "Completed",
+      "keywords": "#Electronics #EmbeddedSystems #Control",
+      "description": "An automated embedded system development project to move a metallic object in a 2D space with an electromagnetic grip mechanism. Working model was built for colour code classification with ATmega 328P chip along with multiple sensors programmed using Assembly language.",
+      "techStack": "Assembly Programming, Atmega365p",
+      "date": "March 2022",
+      "link" : "https://github.com/AryansVj/magnetic-cargo-mover"
+    },
+    {
+      "title": "Website and online magazine platform development for project Artha-2021",
+      "img": "images/portfolio/artha-web.jpg",
+      "status": "Completed",
+      "keywords": "#Webdesigning #SinglePager #OnlineMagazine",
+      "description": "The project website along with a flip book type magazine platform designed and developed from scratch using HTML, CSS, and JavaScript. Hosted on firebase and GitHub pages. Website (අර්ථ 2021) https://arthaperabeats.web.app | Magazine (අර්ථ online Pages) https://artha-2021.github.io/Magazine/",
+      "techStack": "HTML, CSS, JavaScript, Firebase",
+      "date": "June 2021",
+      "link" : "https://github.com/AryansVj/Magazine.git"
     }
 ]
   

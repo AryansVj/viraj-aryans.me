@@ -20,6 +20,10 @@
     color: #f4f4f4;
 }
 
+#news-updates {
+    box-shadow: inset 0 0 10px rgba(6, 145, 169, 0.359);
+}
+
 #updates h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
@@ -45,6 +49,21 @@
 #updates p {
     margin-top: 0;
     text-align: justify;
+}
+
+#collage {
+    background-image: url('../images/IMG_2002.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#collage h2 {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    margin: 20px 0 0 30px;
+    font-size: 3em;
 }
 
 div.contact-back {

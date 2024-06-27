@@ -18,6 +18,17 @@ body h1, h2, h3, h4, span {
 
 body p {
     color: #1b1b1b;
+    text-align: justify;
+}
+
+body p a {
+    text-decoration: none;
+    font-style: italic;
+    color: #006ca7;
+}
+
+body p a:hover {
+    text-decoration: underline;
 }
 
 section div.text-content {
@@ -52,91 +63,13 @@ section div.text-content {
     margin: 0 10px 10px;
     font-size: 3em;
     color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .profile a {
     text-decoration: none;
-}
-
-/* Floating navigation */
-.navigation {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    background-color: #ffffff; /* Background color of the navigation bar */
-    padding: 10px 50px 5px; /* Padding around the navigation links */
-    border-radius: 40px; /* Rounded corners */
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
-    transform-origin: center;
-    transition: width 0.3s ease, transform 0.3s ease;
-}
-
-.navigation.fixed {
-    position: fixed;
-    opacity: 0.85;
-    top: 15px;
-    left: calc(50% - 300px);
-    transform: translateX(calc(-50% + 300px));
-    justify-content: center;
-    transition: all 0.3s ease;
-}
-
-.navigation:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
-    width: 550px;
-    height: auto;
-    opacity: 1;
-}
-
-.navigation ul {
-    display: flex;
-    width: 100%;
-    list-style-type: none; /* Remove default list styles */
-    margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
-}
-
-.navigation ul li {
-    display: inline; /* Display list items inline */
-    margin-right: 20px; /* Add spacing between list items */
-}
-
-.navigation ul li:last-child {
-    margin-right: 0; /* Remove right margin from the last list item */
-}
-
-.navigation ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #333333; /* Link color */
-    font-weight: bold; /* Bold text */
-}
-
-.navigation ul a img {
-    width: 28px;
-    height: 28px;
-    margin: 0;
-}
-
-/* End Floating navigation */
-
-.navigation a {
-    color: #000000;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.2s;
-}
-
-.navigation a:hover {
-    color: rgb(6, 155, 143);
-}
-
-.nav-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust as needed */
 }
 
 header {
@@ -196,8 +129,94 @@ header {
     align-items: center;
     transition: all 0.2s ease;
 }
-.socials i:hover {
+.socials a:hover {
     color:#ffffff;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Floating navigation */
+.navigation {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color: #ffffff; /* Background color of the navigation bar */
+    padding: 10px 50px 5px; /* Padding around the navigation links */
+    border-radius: 40px; /* Rounded corners */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
+    transform-origin: center;
+    transition: width 0.3s ease, transform 0.3s ease;
+}
+
+.navigation.fixed {
+    position: fixed;
+    opacity: 0.85;
+    top: 15px;
+    left: calc(50% - 300px);
+    transform: translateX(calc(-50% + 300px));
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.navigation:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
+    width: 550px;
+    height: auto;
+    opacity: 1;
+}
+
+.navigation ul {
+    display: flex;
+    width: 100%;
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.navigation ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+.navigation ul li:last-child {
+    margin-right: 0; /* Remove right margin from the last list item */
+}
+
+.navigation ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333333; /* Link color */
+    font-weight: bold; /* Bold text */
+}
+
+.navigation ul a:visited {
+    color: #4CAF50;
+}
+
+.navigation ul a img {
+    width: 28px;
+    height: 28px;
+    margin: 0;
+}
+
+/* End Floating navigation */
+
+.navigation a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.navigation a:hover {
+    color: rgb(6, 155, 143);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
 }
 
 .btn {

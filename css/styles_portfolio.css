@@ -96,6 +96,17 @@ body p {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+.heading-ptfl {
+    text-align: center;
+}
+
+.heading-ptfl h2 {
+    color: #333;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
 /* Project cards */
 .portfolio-container {
     display: flex;

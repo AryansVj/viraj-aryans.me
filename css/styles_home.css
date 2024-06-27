@@ -1,13 +1,30 @@
 .header-info p {
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 .scroll-section h2 {
     margin: 5px auto;
 }
+
+.attention-banner {
+    background: linear-gradient(90deg, #0b9f95, #0f6fb4);
+    text-align: left;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.attention-banner h2 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #f4f4f4;
+}
+
 #updates h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.5em;
+    text-align: center;
     margin: 0;
     margin-bottom: 10px;
 }
@@ -19,11 +36,15 @@
 .news-details img {
     width: 400px;
     height: fit-content;
-    margin: 10px 20px 10px 0;
+    margin: 10px 10px 10px 0;
+    border: solid #e8e8e8 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.news-details p {
+#updates p {
     margin-top: 0;
+    text-align: justify;
 }
 
 div.contact-back {

@@ -1,7 +1,23 @@
+.header-info {
+    text-align: center;
+    margin-top: 70px;
+    max-width: 900px;
+    margin: 70px auto 0 auto;
+}
+
 .header-info p {
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+
+.header-info h1.profile {
+    font-family: "South Catalonia";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.5em;
+    color: #0b2333;
+}
+
 .scroll-section h2 {
     margin: 5px auto;
 }
@@ -18,11 +34,6 @@
     font-weight: 500;
     font-size: 1.3em;
     color: #f4f4f4;
-}
-
-#news-updates {
-    background-image: url('../images/12151160_4873411.jpg');
-    background-size: cover;
 }
 
 #updates h3 {
@@ -52,19 +63,211 @@
     text-align: justify;
 }
 
-#collage {
-    background-image: url('../images/IMG_2002.png');
+#intro-banner {
+    background-image: radial-gradient(#f4f4f440, #f4f4f471 30%, #f4f4f4 75%), url('../images/IMG_2002.png');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 350px;
+    max-width: 1100px;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+    margin: 50px auto;
 }
 
-#collage h2 {
+.intro-inner-banner {
+    background-image: linear-gradient(#f4f4f400, #f4f4f41b 60%, #f4f4f4da 95%), url('../images/IMG_2002_2.png');
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: 100%;
+    margin: auto;    
+}
+
+.intro-inner-banner div {
+    width: 900px;
+    height: 100%;
+    margin: auto;
+}
+
+#intro-banner div h2 {
     color: #ffffff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: left;
-    margin: 20px 0 0 30px;
-    font-size: 3em;
+    padding-top: 100px;
+    font-size: 4em;
+}
+
+#intro-banner div h3 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0;
+    text-align: right;
+    width: 650px;
+}
+
+#intro-banner p {
+    width: 450px;
+    color: #4b4b4b;
+    text-shadow: 0 5px 10px rgba(255, 255, 255, 0.3);
+    text-align: left;
+    margin: 50px 0 10px 20px;
+    padding-top: 70px;
+}
+
+.lead-backtext1 {
+    position: absolute;
+    margin: -130px 20px;
+    margin-left: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14em;
+    color: #0b9f95;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.lead-backtext2 {
+    position: absolute;
+    right: 0;
+    margin: 60px 20px;
+    margin-right: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14em;
+    color: #036499;
+    opacity: 0.2;
+    text-align: center;
+}
+
+.intro-leader {
+    background-image: linear-gradient(90deg, #48d9f691, #f4f4f400 70%), url('../images/intro_lead.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.intro-leader h2 {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    color: #ffffff;
+    font-weight: normal;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    border-radius: 5px;
+    text-align: left;
+    width: 300px;
+}
+
+.intro-leader p {
+    margin-top: 30px;
+    color: #fff;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.intro-leader p span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+section.trademark {
+    box-shadow: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+.trademark img {
+    width: 150px;
+    margin: 20px 30px 20px 0;
+}
+
+.trademark h2 {
+    font-family: 'Nasalization';
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.trademark h2 sup {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 0.4em;
+}
+
+.project-cards {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0 auto 20px;
+}
+
+.project-cards h2 {
+    margin: 10px auto 30px;
+    font-weight: normal;
+}
+
+.p-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.p-card {
+    max-width: 220px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.p-card h3 {
+    text-align: center;
+    margin: -20px auto 10px;
+    line-height: 1.1em;
+}
+
+.p-card p {
+    font-family: 'Open Sans';
+    margin-top: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.p-card div.p-card-img {
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.p-card p span {
+    background-color: #ebebeb;
+    color: #202020;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.p-card:nth-child(1) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/fyp_poster.png');
+}
+
+.p-card:nth-child(2) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/gcvm.jpg');
+}
+
+.p-card:nth-child(3) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/artha-web.jpg');
+}
+
+.project-cards p.p-endnote {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 div.contact-back {

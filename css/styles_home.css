@@ -202,11 +202,16 @@ section.trademark {
     background-color: transparent;
     box-shadow: none;
     margin: 0 auto 20px;
+    max-width: 1000px;
 }
 
 .project-cards h2 {
     margin: 10px auto 30px;
     font-weight: normal;
+}
+
+.project-cards a {
+    text-decoration: none;
 }
 
 .p-cards {
@@ -221,19 +226,26 @@ section.trademark {
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.p-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .p-card h3 {
+    color: #1b1b1b;
     text-align: center;
     margin: -20px auto 10px;
     line-height: 1.1em;
+    padding: 0 5px;
 }
 
 .p-card p {
     font-family: 'Open Sans';
     margin-top: 0;
-    padding: 5px;
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -262,6 +274,10 @@ section.trademark {
 
 .p-card:nth-child(3) div.p-card-img {
     background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/artha-web.jpg');
+}
+
+.p-card:nth-child(4) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/vega_pcb.jpg');
 }
 
 .project-cards p.p-endnote {

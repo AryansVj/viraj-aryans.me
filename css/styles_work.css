@@ -1,7 +1,7 @@
 .org-logos {
     display: flex;
     justify-content: space-evenly;
-    margin: 50px auto 30px;
+    margin: 20px auto 30px;
     align-items: center;
     width: 1200px;
 }
@@ -26,9 +26,46 @@
     opacity: 1;
 }
 
-.head-orgs h3 {
+.head-orgs p {
     text-align: center;
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
     font-size: 1.1em;
-    font-weight: normal;
-    margin-bottom: 50px;
+}
+
+.head-orgs {
+    margin: 20px 10px 10px;
+}
+
+.effort-intro {
+    padding: 10px;
+}
+
+.effort-intro h3 {
+    font-family: 'South Catalonia';
+    font-size: 2.5em;
+    line-height: 1.3em;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    font-style: italic;
+}
+
+/* .effort-collage {
+    background-image: url("../images/collage-v3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 -15px 15px inset rgba(255, 255, 255, 0.401);
+} */
+
+.effort-collage {
+    padding: 0 20px;
+}
+
+.effort-collage img {
+    width: 100%;
 }

@@ -50,10 +50,11 @@ body p {
 }
 
 .profile-ptfl h1 {
-    font-size: 3.5em;
+    font-family: 'Nasalization';
+    font-size: 3em;
     font-weight: 500;
     margin: 0;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 
 .profile-ptfl p {
@@ -105,6 +106,89 @@ body p {
     font-size: 2em;
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+section.project-cards {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0 auto 20px;
+    max-width: 1000px;
+    margin: 30px auto 50px;
+}
+
+.project-cards h2 {
+    text-align: center;
+    margin: 20px auto 50px;
+}
+
+.project-cards a {
+    text-decoration: none;
+}
+
+.p-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.p-card {
+    max-width: 220px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.p-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.p-card h3 {
+    color: #1b1b1b;
+    text-align: center;
+    margin: -20px auto 10px;
+    line-height: 1.1em;
+    padding: 0 5px;
+}
+
+.p-card p {
+    font-family: 'Open Sans';
+    margin-top: 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.p-card div.p-card-img {
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.p-card p span {
+    background-color: #ebebeb;
+    color: #202020;
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.p-card:nth-child(1) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/fyp_poster.png');
+}
+
+.p-card:nth-child(2) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/gcvm.jpg');
+}
+
+.p-card:nth-child(3) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/artha-web.jpg');
+}
+
+.p-card:nth-child(4) div.p-card-img {
+    background-image: linear-gradient(#ffffff00, #fff 90%), url('../images/portfolio/vega_pcb.jpg');
 }
 
 /* Project cards */
